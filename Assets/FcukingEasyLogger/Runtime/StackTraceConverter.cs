@@ -4,6 +4,7 @@ using System;
 using System.Diagnostics;
 using System.Linq;
 using System.Reflection;
+using System.Text.RegularExpressions;
 
 #endregion
 
@@ -18,18 +19,10 @@ namespace VLFrolov.FcukingEasyLogger
             MethodBase callingMethod = callingFrame.GetMethod();
             Type callingType = callingMethod.DeclaringType;
 
-            return callingType != null ? callingType.Name : "UnknownClass";
+            return callingType != null ?
+                Regex.Replace(callingType.Name, "(\\B[A-Z])", " $1") :
+                "UnknownClass";
         }
 
-
-        public static void RemoveLoggerFromStackTrace()
-        {
-            var relevantStackFrames =
-                Environment.StackTrace
-                    .Split('\n')
-                    .Skip(1)
-                    .ToArray();
-            var relevantStackTrace = string.Join("\n", relevantStackFrames);
-        }
     }
 }
