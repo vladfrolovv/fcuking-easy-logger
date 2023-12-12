@@ -82,6 +82,27 @@ namespace VLFrolov.FcukingEasyLogger
             Debug.Log($"<color={ColorsConverter.GetColor(color)}>[{StackTraceConverter.GetCallerClassName()}]</color>\n"
                       + $"{string.Join("\n", matrix.Select(row => string.Join(", ", row)))}");
         }
+
+        public static void LogHexagonalMatrix<T>(string prefix, T[,] matrix, LogColor color = LogColor.white)
+        {
+            string hexMatrix = "";
+            for (int y = 0; y < matrix.GetLength(1); y++)
+            {
+                hexMatrix += "   ";
+                for (int x = 1; x < matrix.GetLength(0); x += 2)
+                {
+                    hexMatrix += matrix[y, x] + "     ";
+                }
+                hexMatrix += "\n";
+                for (int x = 0; x < matrix.GetLength(0); x += 2)
+                {
+                    hexMatrix += matrix[y, x] + "     ";
+                }
+                hexMatrix += "\n";
+            }
+            Debug.Log($"<color={ColorsConverter.GetColor(color)}>[{StackTraceConverter.GetCallerClassName()}]</color> {prefix} \n{hexMatrix}");
+        }
+
     }
 
 }
