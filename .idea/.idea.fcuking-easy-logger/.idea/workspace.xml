@@ -4,7 +4,14 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8011d4d7-819e-40c2-9cdd-e5c32a099b20" name="Changes" comment="" />
+    <list default="true" id="8011d4d7-819e-40c2-9cdd-e5c32a099b20" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.fcuking-easy-logger/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.fcuking-easy-logger/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FcukingEasyLogger/LoggingUtility.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FcukingEasyLogger/LoggingUtilities.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FcukingEasyLogger/LoggingUtility.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FcukingEasyLogger/LoggingUtilities.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/FcukingEasyLogger/StackTraceConverter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FcukingEasyLogger/StackTraceConverter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LoggerTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LoggerTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,16 +31,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Discover.Launch.Via.Unity": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="/Applications/UnityEditors/2022.3.7f1/Unity.app/Contents/MacOS/Unity" />
@@ -73,6 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1702320664284</updated>
       <workItem from="1702320664286" duration="4880000" />
+      <workItem from="1702404778013" duration="2058000" />
     </task>
     <servers />
   </component>

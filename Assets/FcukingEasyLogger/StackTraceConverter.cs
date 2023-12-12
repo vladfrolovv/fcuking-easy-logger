@@ -27,7 +27,7 @@ namespace VLFrolov.FcukingEasyLogger
             var relevantStackFrames =
                 Environment.StackTrace
                     .Split('\n')
-                    .Skip(2)
+                    .Skip(1)
                     .ToArray();
             var relevantStackTrace = string.Join("\n", relevantStackFrames);
         }

@@ -8,7 +8,7 @@ using Debug = UnityEngine.Debug;
 
 namespace VLFrolov.FcukingEasyLogger
 {
-    public static class LoggingUtility
+    public static class LoggingUtilities
     {
         private const bool LOGGING = true;
 

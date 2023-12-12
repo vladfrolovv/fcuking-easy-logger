@@ -12,7 +12,7 @@ namespace DefaultNamespace
         {
             foreach (LogColor color in Enum.GetValues(typeof(LogColor)))
             {
-                LoggingUtility.Log($"This is {color} color log. Look how magnificent it is" , color);
+                LoggingUtilities.Log($"This is {color} color log. Look how magnificent it is" , color);
             }
 
         }
