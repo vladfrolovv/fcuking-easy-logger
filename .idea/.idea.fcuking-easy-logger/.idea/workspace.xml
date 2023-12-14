@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8011d4d7-819e-40c2-9cdd-e5c32a099b20" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.fcuking-easy-logger/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.fcuking-easy-logger/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FcukingEasyLogger/Editor/LoggerSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FcukingEasyLogger/Editor/LoggerSettings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/FcukingEasyLogger/Runtime/LoggingUtilities.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/FcukingEasyLogger/Runtime/LoggingUtilities.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +78,7 @@
       <updated>1702320664284</updated>
       <workItem from="1702320664286" duration="4880000" />
       <workItem from="1702404778013" duration="7308000" />
-      <workItem from="1702586413245" duration="1427000" />
+      <workItem from="1702586413245" duration="1787000" />
     </task>
     <servers />
   </component>
