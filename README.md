@@ -23,7 +23,7 @@ Forget complex configurations and multi-line code. <b>Fcuking Easy Logger is a d
 LoggingUtilities.Log($"I am from Ez Logger. Look at my golden edges", LogColor.gold);
 ```
 >[!NOTE]
->You can skip color choosing step in every method
+>You can skip color selecting step in every available method, It will replace desired color with simple white
 
 
 :black_nib: <b>Use him to output every known collection:</b>
