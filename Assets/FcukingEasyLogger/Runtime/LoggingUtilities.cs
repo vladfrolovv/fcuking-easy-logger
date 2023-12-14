@@ -11,7 +11,7 @@ namespace VLFrolov.FcukingEasyLogger
 {
     public static class LoggingUtilities
     {
-        private const bool LOGGING = true;
+        public static bool LOGGING = true;
 
         public static void Log(string message, LogColor color = LogColor.white)
         {
