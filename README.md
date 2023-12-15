@@ -19,7 +19,7 @@ Forget complex configurations and multi-line code. <b>Fcuking Easy Logger is a d
 ## Usage
 
 :pencil2: <b>Replace standard Debug.Log() with this guy:</b>
-```
+```cs
 LoggingUtilities.Log($"I am from Ez Logger. Look at my golden edges", LogColor.gold);
 ```
 >[!NOTE]
@@ -27,19 +27,19 @@ LoggingUtilities.Log($"I am from Ez Logger. Look at my golden edges", LogColor.g
 
 
 :black_nib: <b>Use him to output every known collection:</b>
-```
+```cs
 LoggingUtilities.LogCollection($"Easy logging for List:", collection, LogColor.gold);
 ```
  <br>
 
 :triangular_ruler: <b>Matrices now aren't big deal for Debugging</b>
-```
+```cs
 LoggingUtilities.LogMatrix($"Hey! I'm matrix", matrix, LogColor.chartreuse);
 ```
 <br>
 
 :book: <b>Even Hexagonal matrices aren't a big deal for Fcuking Easy Logger. Now you can easily develop your hexagonal strategies :D</b>
-```
+```cs
 LoggingUtilities.LogHexagonalMatrix($"Easy Hex logging for Matrix:", hexMatrix, LogColor.tomato);
 ```
 <br>
